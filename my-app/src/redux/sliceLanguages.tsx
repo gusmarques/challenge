@@ -7,7 +7,7 @@ interface DataUser {
 }
 
 const INITIAL_STATE: DataUser[] = [
-  {name: 'completou'}
+  {name: ' '}
 ]
 const sliceDataUser = createSlice({
     name: 'dataUser',
